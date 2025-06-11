@@ -1,0 +1,219 @@
+@import "leaflet/dist/leaflet.css";
+@import "tailwindcss";
+@plugin "daisyui";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&display=swap");
+
+/* customize daisyUI */
+:root {
+  --color-success: #0057d6;
+  --color-primary: #0057d6;
+  --color-error: #e02d3c;
+}
+
+/* end of customize daisyUI */
+
+/*c custom scrollbar */
+.custom-scrollbar {
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #0057d6 #fff; /* thumb color, track color (Firefox) */
+}
+
+/* WebKit (Chrome, Safari) */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #e5e7eb;
+  border-radius: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #0057d6;
+  border-radius: 6px;
+  border: 1px solid white;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* end of custom scrollbar */
+
+.font-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+.gradient-1 {
+  background: linear-gradient(to bottom, #0057d6, #002e70);
+}
+
+.gradient-2 {
+  background: linear-gradient(133deg, #8691f3 0%, #0057d6 61%);
+}
+.gradient-3 {
+  background: linear-gradient(to top, #1179ff 0%, #3dadff 100%);
+}
+
+.gradient-4 {
+  background: linear-gradient(180deg, #ffbe2d 0%, #fb6c02 88%);
+}
+
+.gradient-5 {
+  background: linear-gradient(180deg, #fd921c 0%, #ee0e02 70%);
+}
+
+.gradient-6 {
+  background: linear-gradient(180deg, #aa16f6 0%, #ee017c 100%);
+}
+
+.radial-progress.custom-track {
+  --b1: #000; /* atau warna track yang kamu mau */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes splashAnimate {
+  from {
+    opacity: 0;
+    transform: translateX(100vw);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes animateSlideRightOut {
+  to {
+    opacity: 0;
+    transform: translateX(50vw);
+  }
+}
+
+@keyframes animateSlideRightIn {
+  to {
+    opacity: 1;
+    transform: translateX(50vw);
+  }
+}
+
+@keyframes animateSlideDownIn {
+  to {
+    opacity: 1;
+    transform: translateY(100vh);
+  }
+}
+
+@keyframes animateSlidDownOut {
+  to {
+    opacity: 0;
+    transform: translateY(100vh);
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(50vh);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(-50vh);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeLeft {
+  from {
+    opacity: 0;
+    transform: translateX(50vh);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeRight {
+  from {
+    opacity: 0;
+    transform: translateX(-50vh);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.fade-up {
+  animation: fadeUp 0.5s ease-in-out;
+}
+
+.fade-down {
+  animation: fadeDown 0.5s ease-in;
+}
+
+.fade-left {
+  animation: fadeLeft 0.5s ease-in;
+}
+
+.fade-right {
+  animation: fadeRight 0.5s ease-in;
+}
+
+.slideRight-out {
+  animation: animateSlideRightOut 0.5s ease-in-out forwards;
+}
+
+.slideRight-in {
+  animation: animateSlideRightIn 0.5s ease-in-out forwards;
+}
+
+.slideDown-out {
+  animation: animateSlidDownOut 0.5s ease-in-out forwards;
+}
+
+.slideDown-in {
+  animation: animateSlideDownIn 0.5s ease-in-out forwards;
+}
+
+.animate-splash {
+  animation: splashAnimate 0.7s ease-in-out;
+}
+
+.reverse-splash {
+  animation: splashAnimate 0.7s ease-in-out reverse;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
