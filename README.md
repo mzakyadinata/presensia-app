@@ -1,79 +1,87 @@
-Presensia Apps
+# 📘 Presensia Apps
 
-Presensia Apps adalah aplikasi frontend berbasis React yang digunakan untuk keperluan presensi dan manajemen karyawan secara digital. Aplikasi ini dirancang sebagai SPA (Single Page Application) dan mengutamakan kemudahan serta efisiensi dalam proses absensi dan administrasi karyawan.
+Presensia Apps adalah aplikasi frontend berbasis React untuk keperluan **presensi dan manajemen karyawan**. Dirancang sebagai SPA (Single Page Application), aplikasi ini mempermudah proses absensi dan pengelolaan administrasi karyawan dengan tampilan modern dan interaktif.
 
-🚀 Fitur Utama
+---
 
-Untuk Karyawan
+## ✨ Fitur Utama
 
-📍 Absensi berbasis lokasi
+### 👤 Untuk Karyawan
+- 📍 Absensi berdasarkan lokasi terkini (lokasi user vs kantor, radius akan dihitung di backend)
+- 📸 Upload foto bukti absensi
+- 📝 Pengajuan:
+  - Lembur
+  - Izin
+  - Reimburse
+  - Ubah shift
+  - Kunjungan klien
+- 💬 Chat grup project *(frontend only)*
+- 🤖 Chatbot AI & kalkulator gaji *(frontend only)*
 
-Mendapatkan lokasi terkini user
+### 🛠️ Untuk Admin
+- 📋 Manajemen & monitoring pengajuan karyawan
+- ✅ Persetujuan absensi, izin, lembur, dll
 
-Nantinya akan disesuaikan dengan radius lokasi kantor (fitur backend)
+---
 
-📸 Upload foto bukti absensi
+## 🧰 Teknologi yang Digunakan
 
-⏱️ Pengajuan:
+- ⚛️ React 19
+- 🎨 Tailwind CSS v4.1 + DaisyUI v5.0.43
+- ⚡ Vite (dev server & build tool)
+- 🗺️ Leaflet & react-leaflet (lokasi/peta)
+- 📦 Tools tambahan: axios, date-fns, framer-motion, react-router-dom
 
-Lembur
+---
 
-Izin
+## ⚙️ Cara Instalasi
 
-Reimburse
-
-Ubah shift
-
-Kunjungan klien
-
-💬 Chat grup project (masih sisi frontend)
-
-🧮 Kalkulator gaji & chatbot AI (masih sisi frontend)
-
-Untuk Admin
-
-📊 Manajemen karyawan & approval
-
-🔎 Monitoring aktivitas absensi dan pengajuan
-
-🛠️ Teknologi yang Digunakan
-
-React 19 (tanpa framework tambahan)
-
-Tailwind CSS v4.1
-
-DaisyUI v5.0.43
-
-Vite untuk dev server dan build
-
-Leaflet & react-leaflet untuk fitur peta dan lokasi
-
-Axios, date-fns, framer-motion, react-router-dom, dan lainnya
-
-⚙️ Instalasi & Menjalankan Project
-
-1. Clone repo ini
-
+### 1. Clone repository
+```bash
 git clone git@github.com:mzakyadinata/presensia-app.git
 cd presensia-app
+```
 
-2. Install dependencies
-
+### 2. Install dependency
+```bash
 npm install
+```
 
-3. Jalankan project (development mode)
-
+### 3. Jalankan di mode development
+```bash
 npm run dev
+```
 
-4. Build untuk production
-
+### 4. Build untuk production
+```bash
 npm run build
+```
 
-🔓 Lisensi
+---
 
-Aplikasi ini open source, namun penggunaan utamanya ditujukan untuk kebutuhan perusahaan tertentu. Harap hubungi pemilik repositori jika ingin menggunakan dalam skala produksi.
+## 📂 Struktur Folder (Ringkas)
 
-🙌 Kontribusi
+```
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── hooks/
+│   └── App.jsx
+├── tailwind.config.js
+└── README.md
+```
 
-Belum ada kontributor lain untuk saat ini. Jika tertarik berkontribusi, feel free untuk membuka issue atau pull request!
+---
 
+## 🔓 Lisensi
+
+📖 Open source untuk keperluan pengembangan. Namun, project ini dirancang untuk digunakan oleh perusahaan tertentu. Hubungi pemilik repositori untuk penggunaan lebih lanjut.
+
+---
+
+## 🤝 Kontribusi
+
+Belum ada kontributor aktif saat ini. Kamu bisa bantu dengan membuka issue atau pull request jika tertarik.
+
+---
