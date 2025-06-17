@@ -1,0 +1,109 @@
+{
+  "absensi": [
+    {
+      "id": "1",
+      "date": "2025-04-01",
+      "check_in": "--:--",
+      "check_out": "--:--",
+      "status": "Alpha"
+    },
+    {
+      "id": "2",
+      "date": "2025-04-02",
+      "check_in": "--:--",
+      "check_out": "--:--",
+      "status": "Weekend"
+    },
+    {
+      "id": "3",
+      "date": "2025-04-03",
+      "check_in": "08:00",
+      "check_out": "16:01",
+      "status": "Hadir"
+    },
+    {
+      "id": "3",
+      "date": "2025-06-09",
+      "check_in": "08:00",
+      "check_out": "16:02",
+      "status": "Hadir"
+    },
+    {
+      "id": "3",
+      "date": "2025-06-10",
+      "check_in": "08:20",
+      "check_out": "--:--",
+      "status": "Terlambat"
+    },
+    {
+      "id": "4",
+      "date": "2025-04-04",
+      "check_in": "--:--",
+      "check_out": "--:--",
+      "status": "Alpha"
+    },
+    {
+      "id": "5",
+      "date": "2025-04-05",
+      "check_in": "--:--",
+      "check_out": "--:--",
+      "status": "Izin"
+    },
+    {
+      "id": "6",
+      "date": "2025-05-12",
+      "check_in": "08:15",
+      "check_out": "16:02",
+      "status": "Hadir"
+    },
+    {
+      "id": "7",
+      "date": "2025-05-13",
+      "check_in": "08:30",
+      "check_out": "16:05",
+      "status": "Terlambat"
+    },
+    {
+      "id": "8",
+      "date": "2025-05-14",
+      "check_in": "--:--",
+      "check_out": "--:--",
+      "status": "Izin"
+    },
+    {
+      "id": "9",
+      "date": "2025-05-15",
+      "check_in": "--:--",
+      "check_out": "--:--",
+      "status": "Alpha"
+    },
+    {
+      "id": "10",
+      "date": "2025-05-16",
+      "check_in": "08:03",
+      "check_out": "17:36",
+      "status": "Lembur"
+    },
+    {
+      "id": "bee0",
+      "tanggal": "2025-05-18",
+      "check_in": "20:46",
+      "check_out": "--:--",
+      "status": "Terlambat"
+    },
+    {
+      "id": "10be",
+      "date": "2025-05-19",
+      "check_in": "10:22",
+      "check_out": "19:33",
+      "status": "Lembur"
+    },
+    {
+      "id": "4dd5",
+      "date": "2025-05-20",
+      "check_in": "08:31",
+      "check_out": "--:--",
+      "status": "Terlambat"
+    }
+  ]
+}
