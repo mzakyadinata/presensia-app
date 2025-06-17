@@ -38,7 +38,7 @@ Presensia Apps adalah aplikasi frontend berbasis React untuk keperluan **presens
 
 ### 1. Clone repository
 ```bash
-git clone git@github.com:mzakyadinata/presensia-app.git
+git clone git@github.com/mzakyadinata/presensia-app.git
 cd presensia-app
 ```
 
@@ -59,20 +59,30 @@ npm run build
 
 ---
 
-## 📂 Struktur Folder (Ringkas)
+## 📦 JSON 
+Beberapa fitur seperti check-in, check-out, dan log absensi terhubung ke sample data JSON (db.json) untuk keperluan testing atau demo.
 
+### 1. Pindah ke Folder Lain
+Pastikan saat ini berada di folder yang berbeda dengan code 'main' 
+
+### 2. Clone JSON
+```bash
+git clone -b json https://github.com/mzakyadinata/presensia-app.git presensia-json
+cd presensia-json
 ```
-├── public/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── hooks/
-│   └── App.jsx
-├── tailwind.config.js
-└── README.md
+
+### 3, Install JSON Server 
+```bash
+npm install -g json-server
+```
+
+### 5. Jalankan Server 
+```bash
+json-server --watch db.json --port 3001
 ```
 
 ---
+
 
 ## 🔓 Lisensi
 
